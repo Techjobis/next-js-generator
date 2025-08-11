@@ -16,7 +16,7 @@ npm install --dev @techjobis/next-gen
 
 The next-gen CLI provides three main commands to help you quickly scaffold your Next.js application: make:page, make:route, and make:component.
 
-make:page - Generate a New Page
+`make:page` - Generate a New Page
 This command creates a new page file in your specified directory. It's perfect for quickly adding new pages to your application's app or pages directory.
 
 #### Syntax:
@@ -46,7 +46,7 @@ next-gen make:page src/app/dashboard
 next-gen make:page pages/blog --type jsx
 ```
 
-make:route - Generate a New API Route
+`make:route` - Generate a New API Route
 This command creates a new route file, ideal for building API endpoints. Note: This command will not create a route file if a page file already exists in the same directory to avoid conflicts.
 
 Syntax:
@@ -73,7 +73,7 @@ next-gen make:route src/app/api/products
 next-gen make:route src/app/api/users --type js
 ```
 
-make:component - Generate a New Component
+`make:component` - Generate a New Component
 This command allows you to create either a server or client component. The generated component will be a functional component with a default export.
 
 #### Syntax:
