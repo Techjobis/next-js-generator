@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "next-gen": "./index.js"
+  },
   "keywords": [
     "generator",
     "nextjs",
@@ -14,5 +17,8 @@
     "routes"
   ],
   "author": "Biran Jobe",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^14.0.0"
+  }
 }
