@@ -16,6 +16,7 @@
     "pages",
     "routes"
   ],
+  "homepage": "https://github.com/Techjobis/next-js-generator#readme",
   "author": "Biran Jobe",
   "license": "MIT",
   "dependencies": {
