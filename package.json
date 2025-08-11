@@ -1,7 +1,7 @@
 {
-  "name": "next-js-generator",
+  "name": "@techjobis/next-gen",
   "version": "1.0.0",
-  "description": "A nextjs package to generate routes and pages file",
+  "description": "A nextjs package to generate pages, components and routes file",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
