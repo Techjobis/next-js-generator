@@ -104,7 +104,7 @@ next-gen make:component ClientComponent src/app --type client --no-ts
 
 ## Contributing
 
-We welcome contributions! If you'd like to improve the next-gen-cli, please follow these steps:
+We welcome contributions! If you'd like to improve the next-gen cli, please follow these steps:
 
 Fork the repository.
 
@@ -116,5 +116,6 @@ Push to the branch (git push origin feature/your-feature).
 
 Create a new Pull Request.
 
-License
+## License
+
 This project is licensed under the MIT License.
