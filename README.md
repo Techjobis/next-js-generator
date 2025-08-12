@@ -9,7 +9,13 @@ A powerful and intuitive command-line interface (CLI) tool for generating files 
 You can install `next-gen` to use it in any Next.js project.
 
 ```bash
-npm install --dev @techjobis/next-gen
+npm install -g @techjobis/next-gen
+```
+
+You can also use npx to run the command if you don't want to install the package globally.
+
+```bash
+npx @techjobis/next-gen help make:page
 ```
 
 ## Usage
@@ -25,6 +31,12 @@ This command creates a new page file in your specified directory. It's perfect f
 next-gen make:page <path>
 ```
 
+or
+
+```bash
+npx @techjobis/next-gen make:page <path>
+```
+
 #### Options:
 
 -t, --type <filetype>: Specify the file type. The default is tsx.
@@ -36,14 +48,26 @@ next-gen make:page <path>
 #### Examples:
 
 ```bash
-Bash
 # Creates a page.tsx file at src/app/dashboard/
-
 next-gen make:page src/app/dashboard
+```
 
+or
+
+```bash
+npx @techjobis/next-gen make:page src/app/dashboard
+```
+
+```bash
 # Creates a page.jsx file at pages/blog/
 
 next-gen make:page pages/blog --type jsx
+```
+
+or
+
+```bash
+npx @techjobis/next-gen make:page pages/blog --type jsx
 ```
 
 `make:route` - Generate a New API Route
@@ -53,6 +77,12 @@ Syntax:
 
 ```bash
 next-gen make:route <path>
+```
+
+or
+
+```bash
+npx @techjobis/next-gen make:route <path>
 ```
 
 #### Options:
@@ -68,9 +98,23 @@ next-gen make:route <path>
 ```bash
 # Creates a route.ts file at src/app/api/products/
 next-gen make:route src/app/api/products
+```
 
+or
+
+```bash
+npx @techjobis/next-gen make:route src/app/api/products
+```
+
+```bash
 # Creates a route.js file at src/app/api/users/
 next-gen make:route src/app/api/users --type js
+```
+
+or
+
+```bash
+npx @techjobis/next-gen make:route src/app/api/users --type js
 ```
 
 `make:component` - Generate a New Component
@@ -80,6 +124,12 @@ This command allows you to create either a server or client component. The gener
 
 ```bash
 next-gen make:component <name> <path>
+```
+
+or
+
+```bash
+npx @techjobis/next-gen make:component src/app/api/products
 ```
 
 #### Options:
@@ -97,9 +147,21 @@ next-gen make:component <name> <path>
 ```bash
 # Creates a ServerComponent.tsx at src/components/ui/
 next-gen make:component ServerComponent src/components/ui
+```
+
+or
+
+```bash
+npx @techjobis/next-gen make:component ServerComponent src/components/ui
 
 # Creates a ClientComponent.jsx at src/app/
 next-gen make:component ClientComponent src/app --type client --no-ts
+```
+
+or
+
+```bash
+npx @techjobis/next-gen make:component ClientComponent src/app --type client --no-ts
 ```
 
 ## Contributing
