@@ -59,6 +59,11 @@ npx @techjobis/next-gen make:page src/app/dashboard
 ```
 
 ```bash
+# Creates a page.tsx file at src/app/blog/[slug]
+next-gen make:page 'src/app/blog/[slug]'
+```
+
+```bash
 # Creates a page.jsx file at pages/blog/
 
 next-gen make:page pages/blog --type jsx

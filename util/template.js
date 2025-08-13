@@ -49,6 +49,11 @@ export default function ${name}() {
 `;
 
 const serverComponentsTsTemplate = (name) => `import React from 'react';
+
+interface ${name}Props {
+    // Define your props here
+}
+    
 export default function ${name}() {
     return (
         <div>
@@ -87,12 +92,12 @@ export default function ${name}() {
 `;
 
 module.exports = {
-  jsxPageTemplate,
-  tsxPageTemplate,
-  routeJsTemplate,
-  routeTsTemplate,
-  serverComponentsJsTemplate,
-  serverComponentsTsTemplate,
-  clientComponentsJsTemplate,
-  clientComponentsTsTemplate
+    jsxPageTemplate,
+    tsxPageTemplate,
+    routeJsTemplate,
+    routeTsTemplate,
+    serverComponentsJsTemplate,
+    serverComponentsTsTemplate,
+    clientComponentsJsTemplate,
+    clientComponentsTsTemplate
 };
